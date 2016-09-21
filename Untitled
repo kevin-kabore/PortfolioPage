@@ -1,0 +1,9 @@
+### Familiar with the map function in ruby?
+### Write a javascript function that is like the map function
+
+function (arr, cb){
+  for var(i = 0, i < arr.length, i++){
+    arr[i] = cb(arr[i]);
+  }
+  return arr;
+}
